@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar .max-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 60px;
+    max-width: 1300px;
+}
+.navbar.sticky{
+    background-color: saddlebrown;
+    padding:3px;
+    transition: all .3s ease-in;
+}
+
+.navbar{    
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .logo a{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: color 0.4s ease-in;
+    cursor: pointer;
+}
+.navbar .menu li a{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: color 0.7s ease-in;
+}
+.navbar .menu li a:hover{
+    color: rgb(124, 120, 120);
+    cursor: pointer;
+}
+/*home section*/
+.home{
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1490&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    color: rgb(46, 25, 11);
+    min-height: 400px;
+    
+}
+.home .max-width{
+    margin:auto 0 auto 600px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.home .home-content .text-1{
+    font-size: 35px;
+}
+.home .home-content .text-2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -3px;
+
+}
+/*About content*/
+section{
+    padding:50px 0;
+}
+.column img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius:5px ;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    color: tan;
+}
+
+#about{
+    width: 100%;
+    background-color:rgb(209, 136, 84);
+    
+}
+.right{
+    width: 600px;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.right .text{
+    margin-bottom: 60px;
+    margin-top: 35px;
+}
+p{
+    margin-top: 30px;
+    color: bisque;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/*Skills*/
+.skill-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#skills{
+    background-color: rgb(235, 154, 96);
+}
+.skill-text{
+    width: 600px;
+}
+.knowledge img{
+    width: 600px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+/*contact*/
+#contact{
+    background-color: chocolate;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.place{
+    margin-top:70px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.personal{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
